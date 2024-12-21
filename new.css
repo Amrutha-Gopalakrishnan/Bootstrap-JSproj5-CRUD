@@ -1,12 +1,44 @@
-body{
+body {
     background-color: rgb(15, 60, 118);
 }
 
-@media (max-width: 576px) {
+.container {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.list-group {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
     .input-group {
         flex-direction: column;
     }
     .input-group input {
+        width: 100%;
         margin-bottom: 10px;
+    }
+    .list-group {
+        padding: 0;
+    }
+    .list-group-item {
+        padding: 10px;
+        border: none;
+        border-radius: 0;
     }
 }
