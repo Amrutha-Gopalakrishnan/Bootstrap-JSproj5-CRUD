@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(15, 60, 118);
+}
+
+@media (max-width: 576px) {
+    .input-group {
+        flex-direction: column;
+    }
+    .input-group input {
+        margin-bottom: 10px;
+    }
+}
