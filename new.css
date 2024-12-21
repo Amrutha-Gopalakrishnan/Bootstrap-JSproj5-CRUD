@@ -1,8 +1,4 @@
 body {
     background-color: rgb(15, 60, 118);
-    color: white; /* Change text color to white for better contrast */
 }
 
-h3 {
-    color: #f8f9fa; /* Bootstrap light color */
-}
